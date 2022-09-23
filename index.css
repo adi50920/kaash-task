@@ -5,6 +5,8 @@
   font-family: "Inconsolata", monospace;
   font-family: "Roboto Slab", serif;
 }
+
+/* HEADER  */
 .hero {
   height: 100vh;
   overflow: hidden;
@@ -26,7 +28,7 @@
 }
 
 .typewriter h1 {
-  color: #ff5900;
+  color: #ff5e00;
   font-family: monospace;
   overflow: hidden;
   border-right: 0.15em solid #ff5900;
@@ -36,11 +38,15 @@
   animation: typing 4s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
+/* BODY */
 .quote {
   background-color: #fff;
   color: #000;
   z-index: 11;
   padding: 50px 400px;
+}
+.quote span {
+  color: #ff5e00;
 }
 
 @keyframes typing {
@@ -84,11 +90,13 @@
 .heading-box h1 {
   color: #fff;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .heading-tech {
   color: #fff;
+  padding-top: 80px;
+  padding-bottom: 10px;
 }
 
 .container .box::before {
@@ -192,10 +200,6 @@
   box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
 }
 
-/* .heading-tech {
-  margin-bottom: 0px;
-} */
-
 .col {
   width: 80%;
   margin: auto;
@@ -219,13 +223,9 @@
   background-color: grey;
   cursor: pointer;
   height: 300px;
-  /* margin-left: 5px; */
-  /* margin-right: 30px; */
+
   border-radius: 50%;
 }
-/* .col:hover {
-  width: 120%;
-} */
 
 .test-col P {
   padding: 0;
@@ -328,7 +328,7 @@
 .footer-distributed form button {
   border-radius: 3px;
   background-color: #33383b;
-  color: #ffffff;
+  color: #fff;
   border: 0;
   padding: 15px 50px;
   font-weight: bold;
